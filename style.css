@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+}
+/* Navigation Bar */
+.logo-img {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    text-align: center;
+}
+
+.nav-bar {
+    margin: auto;
+}
+
+.nav-item {
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Best Of Service */
+.best-of {
+    text-align: center;
+}
+
+/* Form */
+.form-input {
+    margin: 10px 5px;
+    width: 80%;
+    display: block
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    background: #e67122;
+    background-image: -webkit-linear-gradient(top, #e67122, #ad551a);
+    background-image: -moz-linear-gradient(top, #e67122, #ad551a);
+    background-image: -ms-linear-gradient(top, #e67122, #ad551a);
+    background-image: -o-linear-gradient(top, #e67122, #ad551a);
+    background-image: linear-gradient(to bottom, #e67122, #ad551a);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #db6e25;
+    background-image: -webkit-linear-gradient(top, #db6e25, #d67332);
+    background-image: -moz-linear-gradient(top, #db6e25, #d67332);
+    background-image: -ms-linear-gradient(top, #db6e25, #d67332);
+    background-image: -o-linear-gradient(top, #db6e25, #d67332);
+    background-image: linear-gradient(to bottom, #db6e25, #d67332);
+    text-decoration: none;
+}
+
+.learn-more {
+    margin-bottom: 60px;
+}
+
+.p-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-img-container {
+    background-image: url('https://soroofs.com/wp-content/uploads/2021/01/Art6-1-750x465-1.jpg');
+    background-position: -50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.p-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+}
+
+.btn-container {
+    background-color: black;
+    padding: 45px;
+}
+
+.service-title {
+    text-align: center;
+}
+
+.service-intro {
+    width: 75%
+}
+
+/* Footer */
+.footer {
+    /* display: flex;
+    justify-content: space-evenly; */
+    background-color: black;
+    text-align: center;
+    padding: 10px
+}
+
+hr {
+    width: 50%;
+    color: white
+}
+
+.p-link {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+.footer-item {
+    color: white;
+    margin: 10px 5px;
+}
+
+.service-center {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.service-p {
+    padding-left: 20px;
+    width: 50%
+}
+
+.service-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+.service-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Laptop Layout */
+@media screen and (min-width: 450px) {
+    body {
+        /* background-color: green; */
+    }
+    .nav-img-container {
+        background-image: url('https://soroofs.com/wp-content/uploads/2021/01/Art6-1-750x465-1.jpg');
+        background-position: 0px -25px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+/* Desktop Layout */
+@media screen and (min-width: 850px) {
+    body {
+        /* background-color: blueviolet; */
+    }
+    .nav-img-container {
+        background-image: url('https://soroofs.com/wp-content/uploads/2021/01/Art6-1-750x465-1.jpg');
+        background-position: 0px -65px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* XL Layout */
+@media screen and (min-width: 850px) {
+    body {
+        /* background-color: blueviolet; */
+    }
+    .nav-img-container {
+        background-image: url('https://soroofs.com/wp-content/uploads/2021/01/Art6-1-750x465-1.jpg');
+        background-position: 0px -150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css" />
+    <title>Roof Repair</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>Free Estimates</h1>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./services.html">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="index-body">
+        <form id="emailForm" action="/send_email" method="post">
+            <div class="form-container">
+                <div class="input-container">
+                    <input placeholder="Full Name" name="fullName" id="fullName" type="text" required/>                
+                </div>
+                <div class="input-container">
+                    <input placeholder="Email" name="email" id="email" type="text" required/>                
+                </div>
+                <div>
+                    <input placeholder="Phone" name="phone" id="phone" type="text" required/>
+                </div>
+                <div>
+                    <input placeholder="Street Address" name="streetAddress" id="streetAddress" type="text" required/>
+                </div>
+                <div>
+                    <input placeholder="City" name="city" id="city" type="text" required/>
+                </div>
+                <div class="btn-container">
+                    <button class="submit">Submit</button>                     
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <div>
+            <h2>Call</h2>
+            <h3>916-743-2519</h3>
+        </div>
+        <hr>
+        <div>
+            <h2>Read Our</h2>
+            <h3>Google Reviews</h3>
+        </div>
+        <hr>
+        <div>
+            <h2>Follow Us</h2>
+            <h3>Social Media Links</h3>
+        </div>
+    </div>
+</body>
+<script src="./email.js"></script>
+</html>
